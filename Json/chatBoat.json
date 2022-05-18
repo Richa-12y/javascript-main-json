@@ -1,0 +1,1057 @@
+{
+
+  
+    "steps":[
+       {
+          "prompt":{
+             "text":"Please select the version of Move 3500 you would like to install. This can be found on the back of the terminal at the bottom.",
+             "image": ""
+          },
+          "confirmprompt":[
+             {
+                "option":"Move 3500 CL/3G ",
+                "text":"Move 3500 CL/3G ",
+                "repeat":false,
+                "step":2
+             },
+             {
+                "option":"Move 3500 CL/BT/WiFi ",
+                "text":"Move 3500 CL/BT/WiFi ",
+                "repeat":false,
+                "step":20
+
+             }
+          ]
+       },
+
+      
+
+       {
+        "prompt":{
+           "text":"Have you connected the power cable to the base and power socket or into the power socket on the side of the terminal if not using a base?",
+           "image": ""
+        },
+        "confirmprompt":[
+           {
+              "option":"Yes ",
+              "text":"Yes",
+              "repeat":false,
+              "step":4
+           },
+           {
+              "option":"No",
+              "text":"No",
+              "repeat":false,
+              "step":3
+
+           }
+        ]
+     },
+   
+     {
+        "prompt":{
+           "text":"Please ensure you connect the power cable before continuing",
+           "image": ""
+        },
+        "confirmprompt":[
+           {
+              "option":"Ok",
+              "text":"Ok",
+              "repeat":false,
+              "step":2
+           }
+           
+        ]
+     },
+    
+     {
+        "prompt":{
+           "text":"Is the SIM card inserted into the back of the terminal?Remove the panel on the back of the terminal and check that the SIM is in the slot marked “Sim 1”.",
+           "image": ""
+        },
+        "confirmprompt":[
+           {
+              "option":"Yes ",
+              "text":"Yes",
+              "repeat":false,
+              "step":6
+           },
+           {
+              "option":"No",
+              "text":"No",
+              "repeat":false,
+              "step":5
+
+           }
+        ]
+     },
+
+    
+
+     {
+        "prompt":{
+           "text":"Please ensure that the SIM is in the slot marked “Sim 1” before continuing",
+           "image": ""
+        },
+        "confirmprompt":[
+           {
+              "option":"Ok",
+              "text":"Ok",
+              "repeat":false,
+              "step":4
+           }
+          
+        ]
+     },
+
+
+     
+     {
+        "prompt":{
+           "text":"Is your terminal powered off?",
+           "image": ""
+        },
+        "confirmprompt":[
+           {
+              "option":"Yes ",
+              "text":"Yes",
+              "repeat":false,
+              "step":8
+           },
+           {
+              "option":"No",
+              "text":"No",
+              "repeat":false,
+              "step":7
+
+           }
+        ]
+     },
+
+    
+
+
+    {
+        "prompt":{
+           "text":"Please power your terminal off by pressing and holding the yellow and dot/comma key for 2 seconds until it powers off",
+           "image": ""
+        },
+        "confirmprompt":[
+           {
+              "option":"Ok",
+              "text":"Ok",
+              "repeat":false,
+              "step":6
+           }
+          
+        ]
+     },
+
+    
+
+     {
+        "prompt":{
+           "text":"Place the terminal on the base if you have one, if not connect directly back to the power socket at the side of the terminal. Has the terminal powered on?",
+           "image": ""
+        },
+        "confirmprompt":[
+            {
+               "option":"Yes ",
+               "text":"Yes",
+               "repeat":false,
+               "step":11
+            },
+            {
+               "option":"No",
+               "text":"No",
+               "repeat":false,
+               "step":9
+ 
+            }
+         ]
+     },
+
+   
+
+
+    {
+        "prompt":{
+           "text":"Please power your terminal off by pressing and holding the yellow and dot/comma key for 2 seconds until it powers off",
+           "image": ""
+        },
+        "confirmprompt":[
+            {
+                "option":"Yes ",
+                "text":"Yes",
+                "repeat":false,
+                "step":8
+             },
+             {
+                "option":"No",
+                "text":"No",
+                "repeat":false,
+                "step":10
+  
+             }
+        ]
+     },
+
+
+{
+    "prompt":{
+       "text":"Please contact your terminal helpdesk to complete the installation. Thank you for using the chatbot",
+       "image": ""
+    }
+ },
+
+
+
+{
+    "prompt":{
+       "text":"Once the terminal has reached the ready screen, give the terminal 1 minute to locate signal. Has the mobile icon in the top corner should now turned green",
+       "image": ""
+    },
+    "confirmprompt":[
+        {
+           "option":"Yes ",
+           "text":"Yes",
+           "repeat":false,
+           "step":51
+        },
+        {
+           "option":"No",
+           "text":"No",
+           "repeat":false,
+           "step":12
+
+        }
+     ]
+ },
+
+
+
+
+{
+    "prompt":{
+       "text":"Press the down arrow key and select “Control Panel” and press the green Enter key",
+       "image": ""
+    },
+    "confirmprompt":[
+        {
+           "option":null,
+           "text":null,
+           "repeat":false,
+           "step":13
+        }
+       
+     ]
+ },
+
+
+
+{
+    "prompt":{
+       "text":"Press the down arrow key to select “Terminal Settings” and press Enter  ",
+       "image": ""
+    },
+    "confirmprompt":[
+        {
+           "option":null,
+           "text":null,
+           "repeat":false,
+           "step":14
+        }
+       
+     ]
+ },
+
+
+
+{
+    "prompt":{
+       "text":"Press the down arrow key to select “Comms means” and press Enter",
+       "image": ""
+    },
+    "confirmprompt":[
+        {
+           "option":null,
+           "text":null,
+           "repeat":false,
+           "step":15
+        }
+       
+     ]
+ },
+
+
+
+
+{
+    "prompt":{
+       "text":"Select “Mobile Networks” and press Enter",
+       "image": ""
+    },
+    "confirmprompt":[
+        {
+           "option":null,
+           "text":null,
+           "repeat":false,
+           "step":16
+        }
+       
+     ]
+ },
+
+
+
+
+{
+    "prompt":{
+       "text":"Select “Parameters” and press Enter",
+       "image": ""
+    },
+    "confirmprompt":[
+        {
+           "option":null,
+           "text":null,
+           "repeat":false,
+           "step":17
+        }
+       
+     ]
+ },
+
+ 
+
+
+{
+    "prompt":{
+       "text":"Select “Startup Mode” and press Enter",
+       "image": ""
+    },
+    "confirmprompt":[
+        {
+           "option":null,
+           "text":null,
+           "repeat":false,
+           "step":18
+        }
+       
+     ]
+ },
+
+
+
+
+{
+    "prompt":{
+       "text":"Press the down arrow and select “1 – On” and press Enter",
+       "image": ""
+    },
+    "confirmprompt":[
+        {
+           "option":null,
+           "text":null,
+           "repeat":false,
+           "step":19
+        }
+       
+     ]
+ },
+
+ 
+ {
+    "prompt":{
+       "text":"Press Enter to save changes. The terminal will reboot and the network icon should have turned green.",
+       "image": ""
+    },
+    "confirmprompt":[
+        {
+           "option":null,
+           "text":null,
+           "repeat":false,
+           "step":51
+        }
+       
+     ]
+ },
+
+
+ 
+
+ {
+    "prompt":{
+       "text":"Have you connected the power cable to the base and power socket?",
+       "image": ""
+    },
+    "confirmprompt":[
+        {
+           "option":"Yes",
+           "text":"yes",
+           "repeat":false,
+           "step":22
+        },
+        {
+            "option":"No",
+            "text":"No",
+            "repeat":false,
+            "step":21
+         }
+       
+     ]
+ },
+
+ 
+
+ {
+    "prompt":{
+       "text":"Press Enter to save changes. The terminal will reboot and the network icon should have turned green.",
+       "image": ""
+    },
+    "confirmprompt":[
+        {
+           "option":"Ok",
+           "text":"Ok",
+           "repeat":false,
+           "step":20
+        }
+       
+     ]
+ },
+
+ 
+
+ {
+    "prompt":{
+       "text":"Is your terminal powered off?",
+       "image": ""
+    },
+    "confirmprompt":[
+        {
+           "option":"Yes",
+           "text":"yes",
+           "repeat":false,
+           "step":24
+        },
+        {
+            "option":"No",
+            "text":"No",
+            "repeat":false,
+            "step":23
+         }
+       
+     ]
+ },
+
+ 
+
+ {
+    "prompt":{
+       "text":"Please power your terminal off by pressing and holding the yellow and dot/comma key for 2 seconds until it powers off",
+       "image": ""
+    },
+    "confirmprompt":[
+        {
+           "option":"Ok",
+           "text":"Ok",
+           "repeat":false,
+           "step":22
+        }
+       
+     ]
+ },
+
+ 
+ {
+    "prompt":{
+       "text":"Place the terminal on the base.Has the terminal powered on?",
+       "image": ""
+    },
+    "confirmprompt":[
+        {
+           "option":"Yes",
+           "text":"yes",
+           "repeat":false,
+           "step":28
+        },
+        {
+            "option":"No",
+            "text":"No",
+            "repeat":false,
+            "step":25
+         }
+       
+     ]
+ },
+
+ 
+
+
+ {
+    "prompt":{
+       "text":"Please power your terminal off by pressing and holding the yellow and dot/comma key for 2 seconds until it powers off",
+       "image": ""
+    },
+    "confirmprompt":[
+        {
+           "option":"Yes",
+           "text":"Yes",
+           "repeat":false,
+           "step":24
+        },
+        {
+            "option":"No",
+            "text":"No",
+            "repeat":false,
+            "step":27
+         }
+
+       
+     ]
+ },
+
+
+
+
+
+ {
+    "prompt":{
+       "text":"Please contact your terminal helpdesk to complete the installation. Thank you for using the chatbot.",
+       "image": ""
+    }
+
+},
+
+
+
+
+{
+    "prompt":{
+       "text":"Would you like to connect via local network connection (Broadband/IP)?",
+       "image": ""
+    },
+    "confirmprompt":[
+        {
+           "option":"Yes",
+           "text":"yes",
+           "repeat":false,
+           "step":29
+        },
+        {
+            "option":"No",
+            "text":"No",
+            "repeat":false,
+            "step":38
+         }
+       
+     ]
+ },
+
+
+ 
+{
+    "prompt":{
+       "text":"At the top of the screen, the Bluetooth icon should be green.Is this green on your terminal?",
+       "image": ""
+    },
+    "confirmprompt":[
+        {
+           "option":"Yes",
+           "text":"yes",
+           "repeat":false,
+           "step":38
+        },
+        {
+            "option":"No",
+            "text":"No",
+            "repeat":false,
+            "step":30
+         }
+       
+     ]
+ },
+
+
+ 
+{
+    "prompt":{
+       "text":"Press the down arrow key twice.Select Control Panel.",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":31
+         }
+       
+     ]
+ },
+
+ 
+  
+{
+    "prompt":{
+       "text":"Scroll down and select “Terminal Settings”.",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":32
+         }
+       
+     ]
+ },
+
+  
+
+
+
+{
+    "prompt":{
+       "text":"Scroll down and select “Comm means.",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":33
+         }
+       
+     ]
+ },
+
+  
+
+
+
+{
+    "prompt":{
+       "text":"Select “Bluetooth”.",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":34
+         }
+       
+     ]
+ },
+
+
+  
+
+
+
+{
+    "prompt":{
+       "text":"Scroll down and select “Base”.",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":35
+         }
+       
+     ]
+ },
+
+  
+
+
+
+{
+    "prompt":{
+       "text":"Select “Association”.",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":36
+         }
+       
+     ]
+ },
+   
+
+
+
+{
+    "prompt":{
+       "text":"Select “New Base”.",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":37
+         }
+       
+     ]
+ },
+  
+
+
+
+{
+    "prompt":{
+       "text":"The terminal will show association successful and then reboot and go back to the ready screen. The Bluetooth icon should now be green and the LAN symbol will now also be green.",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":38
+         }
+       
+     ]
+ },
+
+ 
+
+
+
+{
+    "prompt":{
+       "text":"Would you like to connect via WiFi",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":"Yes",
+            "text":"Yes",
+            "repeat":false,
+            "step":39
+         },
+         {
+            "option":"No",
+            "text":"No",
+            "repeat":false,
+            "step":51
+         }
+       
+     ]
+ },
+
+
+ 
+
+ 
+
+{
+    "prompt":{
+       "text":"Press the down arrow key and select “Control Panel” and press the green Enter key",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":40
+         }
+       
+     ]
+ },
+
+ 
+
+
+ 
+{
+    "prompt":{
+       "text":"Highlight “Terminal Settings” and press Enter",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":41
+         }
+       
+     ]
+ },
+
+ 
+
+ 
+{
+    "prompt":{
+       "text":"Highlight “Comms means” and press Enter",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":42
+         }
+       
+     ]
+ },
+
+ 
+
+
+ 
+{
+    "prompt":{
+       "text":"Highlight “Wi-Fi” and press Enter",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":43
+         }
+       
+     ]
+ },
+ 
+
+ {
+    "prompt":{
+       "text":"If not yet enabled, select Enable, then select Scan networks",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":44
+         }
+       
+     ]
+ },
+ 
+ {
+    "prompt":{
+       "text":"Terminal will automatically scan for available networks.From the list of networks select your network and press enter",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":45
+         }
+       
+     ]
+ },
+
+ 
+ {
+    "prompt":{
+       "text":"Select whether the Wi-Fi network is visible or hidden. Depending on the option selected at this point the terminal may ask you to Enter the network name (ESSID). Using the keyboard or selecting each character on screen using the function keys to navigate",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":46
+         }
+       
+     ]
+ },
+ 
+ {
+    "prompt":{
+       "text":"Highlight “Home Security” and press enter",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":47
+         }
+       
+     ]
+ },
+
+  {
+    "prompt":{
+       "text":"Enter the Wi-Fi password and press enter.Note the Wi-Fi password is case sensitive.",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":48
+         }
+       
+     ]
+ },
+ 
+ {
+    "prompt":{
+       "text":"The Confirmation screen will be displayed",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":49
+         }
+       
+     ]
+ },
+
+
+ {
+    "prompt":{
+       "text":"The terminal will return to the Wi-Fi setting home screen.Press the red key in order to return to the Ready screen. Has the Wi-Fi icon turned green?",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":"Yes",
+            "text":"yes",
+            "repeat":false,
+            "step":"continue to step 40"
+         },
+         {
+            "option":"No",
+            "text":"No",
+            "repeat":false,
+            "step":50
+         }
+       
+     ]
+ },
+
+ 
+
+ {
+    "prompt":{
+       "text":"Please check all the details you are entering are correct such as password and security type.Ensure that the Wi-Fi network is working by connecting to it from another device, such as a mobile phone.",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":49
+         }
+       
+     ]
+ },
+
+ 
+ {
+    "prompt":{
+       "text":"We now need to select a new terminal password. Press the following keys.>Press menu x2>Select Supervisor and key in 01483>F2 password>F4 change password Type your new password and when prompted enter it again.",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":null,
+            "text":null,
+            "repeat":false,
+            "step":52
+         }
+       
+     ]
+ },
+ 
+ {
+    "prompt":{
+       "text":"Now we need to check the terminal can connect.Press the following keys.",
+       "image": ""
+    },
+    "confirmprompt":[
+      
+        {
+            "option":"Yes",
+            "text":"Yes",
+            "repeat":false,
+            "step":54
+         },
+         {
+            "option":"No",
+            "text":"No",
+            "repeat":false,
+            "step":53
+         }
+       
+     ]
+ },
+ 
+ {
+    "prompt":{
+       "text":"Please contact your terminal helpdesk to complete the setup of your terminal.",
+       "image": ""
+    }
+ },
+
+ 
+ {
+    "prompt":{
+       "text":"Your terminal is now ready to use.We would really appreciate your feedback of the chatbot experience with our brief 30 second survey.Click the following link to access it… https://terminalservices.customersure.com/survey/NQm_T-uLUJ1C3ViNSK4i/completion/new Thank you for using the chatbot.",
+       "image": ""
+    }
+ }
+
+
+
+
+
+    ]
+
+}

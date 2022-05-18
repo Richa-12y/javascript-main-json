@@ -1,0 +1,36 @@
+/* Complete the CSS styling according to the provided design */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/table.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font: 6em sans-serif;
+}
+
+#message-el {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 3em sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#message-ell{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 3em sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+}

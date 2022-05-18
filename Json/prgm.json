@@ -1,0 +1,253 @@
+{
+
+  
+    "steps":[
+       {
+          "prompt":{
+             "text":"Have you connected the power cable to the power socket on the Magic Box at the end of the curly cable?",
+             "image": ""
+          },
+          "confirmprompt":[
+             {
+                "option":"Yes",
+                "text":"Yes",
+                "repeat":false,
+                "step":3
+             },
+             {
+                "option":"No",
+                "text":"No",
+                "repeat":false,
+                "step":2
+             }
+          ]
+       },
+
+     
+
+
+       {
+        "prompt":{
+           "text":"Please ensure you connect the power cable before continuing",
+           "image": ""
+        },
+        "confirmprompt":[
+           {
+              "option":"Ok",
+              "text":"Ok",
+              "repeat":false,
+              "step":1
+           }
+        ]
+     },
+
+     
+
+     {
+        "prompt":{
+           "text":"Have you connected your Ethernet Cable or Phone Cable to your Magic Box dependant on how you wish to connect?",
+           "image": ""
+        },
+        "confirmprompt":[
+           {
+              "option":"Yes",
+              "text":"Yes",
+              "repeat":false,
+              "step":4
+           },
+           {
+              "option":"No",
+              "text":"No",
+              "repeat":true,
+              "step":3
+           }
+        ]
+     },
+
+   
+
+
+     {
+        "prompt":{
+           "text":"Connect your ethernet cable or phone cable to the marked slots on the Magic Box",
+           "image": ""
+        },
+        "confirmprompt":[
+           {
+              "option":"Ok",
+              "text":"Ok",
+              "repeat":false,
+              "step":5
+           }
+        
+        ]
+     },
+
+
+   
+
+     
+     {
+      "prompt":{
+         "text":"If connecting through Ethernet, the below symbol located at the top of the screen should have turned green. Has this turned Green?",
+         "image": ""
+      },
+      "confirmprompt":[
+         {
+            "option":"Yes",
+            "text":"Yes",
+            "repeat":false,
+            "step":7
+         },
+         {
+            "option":"No",
+            "text":"No",
+            "repeat":true,
+            "step":6
+         }
+      ]
+   },
+
+
+   
+
+
+
+   {
+      "prompt":{
+         "text":"Reconnect the Ethernet Cable both on the Magic Box and on the Router and ensure the Ethernet Cable is not damaged. Is the Green Lan symbol now present? ",
+         "image": ""
+      },
+      "confirmprompt":[
+         {
+            "option":"Yes",
+            "text":"Yes",
+            "repeat":false,
+            "step":10
+         },
+         {
+            "option":"No",
+            "text":"No",
+            "repeat":true,
+            "step":8
+         }
+
+      ]
+   },
+ {
+        "prompt":{
+           "text":"Try Rebooting your router",
+           "image": ""
+        },
+        "confirmprompt":[
+           {
+              "option":"Ok",
+              "text":"Ok",
+              "repeat":false,
+              "step":9
+           }
+        
+        ]
+     },
+
+
+     {
+      "prompt":{
+         "text":"Please contact your terminal helpdesk to complete the installation. Thank you for using the chatbot",
+         "image": ""
+      },
+      "confirmprompt":[
+         {
+            "option":"Ok",
+            "text":"Ok",
+            "repeat":false,
+            "step":14
+         }
+      
+      ]
+   },
+
+
+
+
+
+{
+   "prompt":{
+      "text":"We now need to select a new terminal password. Press the following keys.>Press menu x2>Select Supervisor and key in 01483>F2 password >F4 change password Type your new password and when prompted enter it again. It must be minimum 4 digits and not 0000 or 1234 ",
+      "image": ""
+   },
+   "confirmprompt":[
+      {
+         "option":null,
+         "text":null,
+         "repeat":false,
+         "step":11
+      }
+
+   ]
+},
+
+
+
+{
+   "prompt":{
+      "text":"Does the printout advise it has passed?",
+      "image": ""
+   },
+   "confirmprompt":[
+      {
+         "option":"Yes",
+         "text":"Yes",
+         "repeat":false,
+         "step":12
+      },
+
+ {
+         "option":"No",
+         "text":"No",
+         "repeat":false,
+         "step":13
+      }
+   ]
+},
+   
+
+{
+   "prompt":{
+      "text":"Please contact your terminal helpdesk to complete the setup of your terminal.",
+      "image": ""
+   },
+   "confirmprompt":[
+      {
+         "option":"Ok",
+         "text":"Ok",
+         "repeat":false,
+         "step":14
+      }
+   ]
+},
+
+
+{
+   "prompt":{
+      "text":"Your terminal is now ready to use.We would really appreciate your feedback of the chatbot experience with our brief 30 second survey.Click the following link to access it… https://terminalservices.customersure.com/survey/NQm_T-uLUJ1C3ViNSK4i/completion/new Thank you for using the chatbot.",
+      "image": ""
+   },
+   "confirmprompt":[
+      {
+         "option":"Ok",
+         "text":"Ok",
+         "repeat":false,
+         "step":14
+      }
+   ]
+},
+{
+   "prompt":{
+      "text":"Thank you for using the chatbot. Your opinion is valuable to us and we would appreciate your feedback on the chatbot experience. If you’d like to leave feedback click here to complete a short and quick survey."
+   }
+}
+   
+      
+    ]
+ }
